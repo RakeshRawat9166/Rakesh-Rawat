@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+    <style>
+        table{
+            border-collapse: collapse;
+            position: fixed;
+            top: 100px;
+            right: 20px;
+            /* margin-top: 100px;
+            margin-left: 900px; */
+            border-color:aliceblue;
+            border-width: 2px;
+            color: blue;
+            background-color:#5D5C61;
+        }
+        th,td{
+            border-width: 2px;
+        }
+        body{
+            background-color:darkslategray;
+        }
+
+        form{
+            position: fixed;
+            top: 100px;
+            left:20px;
+        }
+
+#rakesh{
+position:relative;
+}
+    </style>
+</head>
+</head>
+<body>
+    <div id="navbar">
+        <a id="logo" href="#">amazon.in</a>
+        <a href="#">Account</a>
+        <a href="#">My Cart</a>
+        <a href="#">Contact Us</a>
+        <input placeholder="search Amazon.in">
+        <button id="abc">Search</button>
+    </div>
+
+    <!-- <center> -->
+        <table border="2" cellpadding="20px">
+            <caption>Table</caption>
+            <tr>
+                <td>ejhfejhfehb</td>
+                <td>jhdbhwe</td>
+                <td>ewjkdhewhd</td>
+                <td>wkjeh</td>
+            </tr>
+            <tr>
+                <td>wkjejw</td>
+                <td>wjkh</td>
+                <td>kjehkj</td>
+                <td>wkjek</td>
+            </tr>
+            <tr>
+                <td>wkqjhejkh</td>
+                <td>kjwebjk</td>
+                <td>wkjb</td>
+                <td>wjkenkj</td>
+            </tr>
+            <tr>
+                <td>wekjbdjk</td>
+                <td>wkneh</td>
+                <td>wenkn</td>
+                <td>knekl</td>
+            </tr>
+        </table>
+    <!-- </center> -->
+
+    <form>
+        <h1>HTML Forms</h1>
+        First Name: <input type="text" name="first name"/>
+        <br>
+        Last name: <input type="text" name="last name"/>
+        <br>
+
+        User ID: <input type="text" name="user id"/>
+        <br>
+        Password: <input type="password" name="password"/>
+        <br>
+
+        Description :<br/>
+        <textarea rows="5" cols="50" name="description">
+        Enter description here
+        </textarea>
+
+        <br>
+        <input type="checkbox" name="maths" value="maths">Maths
+        <input type="checkbox" checked name="physics" value="physics">Physics
+        <br>
+
+        <input type="radio" name="subject" value="maths" checked>Maths
+        <input type="radio" name="subject" value="physics">Physics
+        <br>
+
+        <select name="city">
+            <option value="Jaipur">Jaipur</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Gurgaon">Gurgaon</option>
+            <option value="Chandigarh">Chandigarh</option>
+        </select>
+
+        <br>
+        <input type="file" name="file upload"/>
+        <input type="submit" value="submit">
+        <br>
+
+        <input type="submit" name="submit" value="Submit"/>
+        <input type="reset" name="reset" value="Reset"/>
+        <input type="button" name="ok" value="Ok"/>
+        <br>
+        <input type="image" width="35%" name="image button" src="https://cff2.earth.com/uploads/2023/06/02100547/Mountain-2-960x640.jpg"/>
+    </form>
+    
+</body>
+</html>
