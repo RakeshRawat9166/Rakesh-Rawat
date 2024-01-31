@@ -1,0 +1,51 @@
+* {
+    /* padding: 0; */
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+
+#navbar {
+    height: 45px;
+    background-color: #8D8741;
+}
+
+button{
+    background-color: #8D8741;
+}
+
+#logo{
+    position:relative;
+    left:20px;
+    background-color: #8D8741;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 200px;
+}
+
+#abc {
+    /* margin-right:15px; */
+}
+
+input{
+    color: black;
+}
+/* color codes{
+    #8D8741
+    #BC986A
+    #659DBD
+    #DAAD86
+    #FBEEC1
+
+    #05386B
+    #379683
+
+    #5D5C61
+    #379683
+    #7395AE
+    #557A95
+    #B1A296
+} */
